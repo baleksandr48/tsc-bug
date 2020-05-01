@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:watch": "tsc -w"
+    "build:watch": "tsc -w --extendedDiagnostics"
   },
   "author": "",
   "license": "ISC",
@@ -12,8 +12,7 @@
     "@nestjs/common": "^7.0.7",
     "@nestjs/core": "^7.0.7",
     "@nestjs/testing": "^7.0.7",
-    "rxjs": "^6.5.5",
-    "typescript": "^3.8.3"
+    "rxjs": "^6.5.5"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1"
